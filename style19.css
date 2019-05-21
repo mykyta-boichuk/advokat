@@ -1,0 +1,502 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+header{
+    background-image:linear-gradient(to top, rgba(10,0,0,0.6), rgba(10,0,0,0.6)), url("images/content-background.jpeg");
+    width: 100%;
+    height: 700px;
+    position: fixed;
+    background-size: cover;
+    float: right;
+    z-index: -9;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type:none;
+}
+ h2:before,
+ h2:after {
+    content: "";
+    height: 2px;
+    position: absolute;
+    top: 35px;
+    width: 35%;
+}
+.content-left h2 :after{
+    left: 50%;
+}
+ h2:after {
+    background: rgb(126,126,126);
+    background: -moz-linear-gradient(left,  rgba(256,256,256,1) 0%, rgba(71, 28, 0, 0.8) 100%);
+    background: -webkit-linear-gradient(left, rgba(256,256,256,1) 0%,rgba(71, 28, 0, 0.8) 100%);
+    background: -o-linear-gradient(left,  rgba(256,256,256,1) 0%,rgba(71, 28, 0, 0.8) 100%);
+    background: -ms-linear-gradient(left,  rgba(256,256,256,1) 0%,rgba(71, 28, 0, 0.8) 100%);
+    background: linear-gradient(left,  rgba(256,256,256,1) 0%,rgba(71, 28, 0, 0.8) 100%);
+    right: 0;
+}
+ h2:before {
+    background: rgb(126,126,126);
+    background: -moz-linear-gradient(right,  rgba(256,256,256,1) 0%, rgba(71, 28, 0, 0.8) 100%);
+    background: -webkit-linear-gradient(right,  rgba(256,256,256,1) 0%, rgba(71, 28, 0, 0.8) 100%);
+    background: -o-linear-gradient(right,  rgba(256,256,256,1) 0%, rgba(71, 28, 0, 0.8) 100%);
+    background: -ms-linear-gradient(right,  rgba(256,256,256,1) 0%,rgba(71, 28, 0, 0.8) 100%);
+    background: linear-gradient(right,  rgba(256,256,256,1) 0%,rgba(71, 28, 0, 0.8) 100%);
+    left: 0;
+}
+.main_header{
+    width: 100%;
+    height: 50px;
+    padding: 10px 10px 10px 10px;
+    z-index: -4;
+    position: fixed;
+}
+.logo{
+    float: left;
+    width: 600px;
+    opacity: 1;
+    margin-top: 11%;
+    margin-left: 4.5%;
+
+}
+.logo-images{
+    width: 200px;
+    padding-right: 10px;
+    border-right: 1px solid white;
+    margin-right: 10px;
+
+
+}
+.logo h1{
+    color: white;
+    font-size: 25px;
+    font-family: "Malgun Gothic";
+
+}
+.menu {
+    float: left;
+    opacity: 1;
+    width: 100%;
+    margin-top: 0px;
+    color: white;
+    transition: all 5ms linear;
+
+}
+
+.menu ul{
+    width: 100%;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-align: center;
+
+}
+.menu li{
+    display: inline;
+    width: 20%;
+    float: left;
+
+
+
+}
+.menu a {
+    display: block;
+    margin: auto;
+    padding: 1rem 1.25rem;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    text-decoration: none;
+    position: relative;
+    transition: all .3s;
+    z-index: 1;
+    border-left:1px solid white;
+    color: white;
+}
+
+.menu a:hover {
+    color: #000000;
+    background: white;
+}
+.fixed {
+
+
+    position: fixed;
+    width: 100%;
+    float: left;
+    border-bottom: #471c00;
+    background-color: #471c00;
+    z-index: 99999;
+    animation-duration: 1s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-top: -60px;
+
+    }
+
+    to {
+        margin-top: 0px;
+        ;
+    }
+
+
+}
+.fixed ul {
+    width: 100%;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-align: center;
+}
+.fixed li{
+    display: inline;
+    width: 20%;
+    float: left;
+}
+.fixed a {
+    display: block;
+    margin: auto;
+    padding: 1rem 1.25rem;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    text-decoration: none;
+    position: relative;
+    transition: all .3s;
+    z-index: 1;
+    border-left:1px solid white;
+    color: white;
+}
+.fixed a:hover {
+    color: #000000;
+    background: white;
+}
+.top-content{
+
+     background-size: cover;
+     width: 100%;
+    position: relative;
+     float: right;
+     z-index: -9;
+ }
+.top-content2{
+    width: 0px;
+
+    float: left;
+}
+.block-info{
+    width: 100%;
+    height: auto;
+    background: black;
+    opacity: 0.5;
+    float: right;
+}
+.block-content{
+    float: left;
+    width: 100%;
+    clear: both;
+    margin-top: 0px;
+}
+.content-left{
+    float: left;
+    width: 50%;
+}
+
+.content-right{
+    float:right;
+    width: 40%;
+    height: 300px;
+}
+
+.o-sebe {
+    display:flex;
+    width: 100%;
+    clear: both;
+    margin-top: 0px;
+    color: #471c00;
+    position: relative;
+    background-color: white;
+    box-shadow:inset 0px 0px 10px 3px #471C00;
+    padding-top: 20px;
+    box-sizing:border-box;
+    justify-content:space-between;
+}
+h2{
+    text-align: center;
+    font-family: "Myriad Pro";
+
+    font-size: 30px;
+    color: #471c00;
+
+}
+h3{
+    text-align: center;
+    font-family: "Myriad Pro";
+    margin-bottom: 50px;
+    font-size: 30px;
+    color: #471c00;
+}
+
+.o-sebe p{
+    font-size: 22px;
+    font-family: "Calibri Light", sans-serif;
+    margin-left: 5%;
+    margin-bottom: 80px;
+
+}
+.list-services{
+    float: left;
+    width: 30%;
+    height: auto;
+
+    color: white;
+    margin-left: 4.5%;
+}
+.list-services li{
+    font-family: "Calibri Light";
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.list-services ul{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    list-style-image: url(images/ListMarker.png);
+}
+.content-right{
+    background-image:linear-gradient(to top, rgba(10,0,0,0.6), rgba(10,0,0,0.6)), url("images/279218788.jpg");
+    width: 40%;
+    float: right;
+    margin-right: 2%;
+    height: auto;
+    position: relative;
+}
+.block-news{
+    width: 100%;
+    height: auto;
+
+
+
+}
+.header-title{
+    text-align: center;
+    font-family: "Myriad Pro";
+    margin-bottom: 30px;
+    font-size: 30px;
+    color: #471c00;
+    color: white;
+
+}
+#newsticker {
+    width: 100%;
+    height: 100%;
+
+
+}
+#newsticker p{
+    font-size: 24px;
+    font-family: "Calibri Light", sans-serif;
+    color: white;
+}
+#newsticker li{
+    border-top:1px solid white;
+    height: 170px;
+    width: 100%;
+}
+#newsticker a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-family: "Calibri Light", sans-serif;
+    text-align: center;
+    margin-left: 5px;
+}
+#newsticker span{
+    font-size: 24px;
+    font-family: "Calibri Light", sans-serif;
+    color: white;
+    display: block;
+    text-align: right;
+    margin-right: 5px;
+}
+#news-down {
+    cursor: pointer;
+}
+#news-up {
+    cursor: pointer;
+}
+#nav-breadcrambs {
+
+    margin-left: 40px;
+}
+#nav-breadcrambs a{
+    color: black;
+    font-size: 24px;
+    font-family: "Calibri Light", sans-serif;
+    text-decoration: none;
+
+}
+#nav-breadcrambs a:hover{
+    color: red;
+    text-decoration: underline;
+}
+#nav-breadcrambs span {
+    color: silver;
+}
+.block-content {
+    font-size: 24px;
+    font-family: "Calibri Light", sans-serif;
+}
+input{
+    width: 20px;
+    height: 20px;
+}
+.services{
+background-image: linear-gradient(to top, rgba(71,28,0,0.6), rgba(71,28,0,0.6)), url("images/background-services.jpg");
+    z-index: -0;
+    position: relative;
+    text-align: center;
+    text-shadow: 0 1px 0 #fff;
+}
+.services .content-right{
+    background: none;
+    width:400px;
+}
+.services h2{
+    color: white;
+
+}
+.contact p{
+    float: left;
+    margin-left: 40px;
+    color: white;
+}
+
+.contact {
+    background-image: linear-gradient(to top, rgba(71,28,0,0.6), rgba(71,28,0,0.6)), url("images/background-services.jpg");
+    padding-top: 40px;
+
+    width: 100%;
+}
+#map{
+    float: right;
+    margin-right: 100px;
+
+}
+.work{
+    position: relative;
+    box-shadow:inset 0px 0px 10px 3px #471C00;
+
+}
+.work h2:after {
+    background: rgb(126,126,126);
+    background: -moz-linear-gradient(left,  rgba(71, 28, 0, 0.8) 0%, rgba(255,255,255,1) 100%);
+    background: -webkit-linear-gradient(left,  rgba(71, 28, 0, 0.8) 0%,rgba(255,255,255,1) 100%);
+    background: -o-linear-gradient(left,  rgba(71, 28, 0, 0.8) 0%,rgba(255,255,255,1) 100%);
+    background: -ms-linear-gradient(left,  rgba(71, 28, 0, 0.8) 0%,rgba(255,255,255,1) 100%);
+    background: linear-gradient(left,  rgba(71, 28, 0, 0.8) 0%,rgba(255,255,255,1) 100%);
+    margin: 0px 15px 0px 10px;
+
+
+}
+.work h2:before{
+    background: rgb(126,126,126);
+    background: -moz-linear-gradient(right,  rgba(71, 28, 0, 0.8) 0%, rgba(255,255,255,1) 100%);
+    background: -webkit-linear-gradient(right,  rgba(71, 28, 0, 0.8) 0%,rgba(255,255,255,1) 100%);
+    background: -o-linear-gradient(right,  rgba(71, 28, 0, 0.8) 0%,rgba(255,255,255,1) 100%);
+    background: -ms-linear-gradient(right,  rgba(71, 28, 0, 0.8) 0%,rgba(255,255,255,1) 100%);
+    background: linear-gradient(right,  rgba(71, 28, 0, 0.8) 0%,rgba(255,255,255,1) 100%);
+    margin: 0px 10px 0px 15px;
+}
+.work p{
+    margin: 5%;
+    color: #471C00;
+}
+
+
+
+.services>div{
+    background-image: none;
+}
+.civil-text{
+    position: absolute;
+    left: 230px;
+    width: 400px;
+    top:15%;
+
+    background-image:linear-gradient(to top, rgba(10,0,0,0.6), rgba(10,0,0,0.6));
+    transition: all 10ms linear;
+
+
+}
+.civil-text li{
+    list-style-image: none;
+    text-align: left;
+    font-size: 20px;
+    margin: 0px;
+
+}
+.civil:hover .civil-text{
+    display: block;
+
+}
+.land:hover .land-text{
+    display: block;
+}
+.family:hover .family-text{
+    display: block;
+    margin-top: 0px;
+}
+.hereditary:hover .hereditary-text{
+    display: block;
+}
+.labor:hover .labor-text{
+    display: block;
+}
+.banking:hover .banking-text{
+    display: block;
+}
+.insurance:hover .insurance-text{
+    display: block;
+}
+.khozyaystvennoye:hover .khozyaystvennoye-text{
+    display: block;
+}
+.proizvodstvo:hover .proizvodstvo-text{
+    display: block;
+}
+.corner:hover .corner-text{
+    display: block;
+}
+.housing:hover .housing-text{
+    display: block;
+}
+.administrative:hover .administrative-text{
+    display: block;
+}
+.information:hover .information-text{
+    display: block;
+}
+.escort:hover .escort-text{
+    display: block;
+}
+.all{
+    background-color: white;
+}
+.services-content{
+    display:flex;
+    justify-content:space-between;
+}
+@media screen and (max-wight: )

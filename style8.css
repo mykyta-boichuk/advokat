@@ -1,0 +1,215 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type:none;
+}
+.main_header{
+
+    width: 100%;
+    height: 50px;
+    padding: 10px 10px 10px 10px;
+
+
+
+}
+.logo{
+    float: left;
+    width: 600px;
+    opacity: 1;
+    margin-top: 11%;
+    margin-left: 4.5%;
+
+}
+.logo-images{
+    width: 200px;
+    padding-right: 10px;
+    border-right: 1px solid white;
+    margin-right: 10px;
+
+
+}
+.logo h1{
+    color: white;
+    font-size: 25px;
+    font-family: "Malgun Gothic";
+
+}
+.menu {
+    float: left;
+    opacity: 1;
+    width: 100%;
+    margin-top: -70px;
+}
+.menu ul{
+    width: 100%;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-align: center;
+
+}
+.menu li{
+    display: inline;
+    width: 20%;
+    float: left;
+
+
+
+}
+.menu a {
+    display: block;
+    margin: auto;
+    padding: 1rem 1.25rem;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    transition: all .3s;
+    z-index: 1;
+    border-left:1px solid white;
+}
+
+.menu a:hover {
+    color: #000000;
+    background: white;
+}
+
+.top-content{
+     background-image:linear-gradient(to top, rgba(10,0,0,0.6), rgba(10,0,0,0.6)), url("images/content-background.jpeg");
+     background-size: cover;
+     width: 100%;
+     height: inherit;
+    float: right;
+
+ }
+.top-content2{
+    width: 0px;
+    padding-top: 46.80%;
+    float: left;
+}
+.block-info{
+    width: 100%;
+    height: auto;
+    background: black;
+    opacity: 0.5;
+    float: right;
+}
+.block-content{
+    float: left;
+    width: 100%;
+    clear: both;
+    margin-top: 40px;
+
+}
+.content-left{
+    float: left;
+    width: 60%;
+}
+.content-right{
+    float:right;
+    width: 40%;
+    height: 300px;
+
+
+}
+
+
+
+
+
+.o-sebe {
+    float: left;
+    width: 100%;
+    clear: both;
+    margin-top: 30px;
+    color: #471c00;
+}
+h2{
+    text-align: center;
+    font-family: "Myriad Pro";
+    margin-bottom: 50px;
+    font-size: 30px;
+    color: #471c00;
+
+}
+.o-sebe p{
+    font-size: 24px;
+    font-family: "Calibri Light", sans-serif;
+    margin-left: 5%;
+}
+.list-services{
+    float: right;
+    width: 30%;
+    height: auto;
+    background-color: #471c00;
+    color: white;
+    margin-right: 4.5%;
+}
+.list-services li{
+    font-family: "Calibri Light";
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.list-services ul{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#block-news{
+    width: 100%;
+    height: 200px;
+}
+#newsticker {
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid silver;
+
+}
+#newsticker p{
+    font: 14px sans-serif;
+
+}
+#newsticker li{
+    border-bottom:1px solid silver;
+    height: 200px;
+
+}
+#newsticker a{
+    text-decoration: none;
+    color: red;
+}
+#newsticker span{
+    font: 13px sans-serif;
+    color: gray;
+    display: block;
+}
+#news-down {
+    cursor: pointer;
+}
+#news-up {
+    cursor: pointer;
+}
+#nav-breadcrambs {
+
+    margin-left: 40px;
+}
+#nav-breadcrambs a{
+    color: black;
+    font: 13px sans-serif;
+    text-decoration: none;
+
+}
+#nav-breadcrambs a:hover{
+    color: red;
+    text-decoration: underline;
+}
+#nav-breadcrambs span {
+    color: silver;
+}
